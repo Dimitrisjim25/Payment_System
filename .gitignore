@@ -1,0 +1,64 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.cpython-*.pyc  # Συγκεκριμένα για compiled Python files
+
+# Virtual environment
+venv/
+.venv/  # Περιστασιακά κάποιοι χρησιμοποιούν .venv αντί για venv
+
+# Environment variables file (critical for security)
+.env
+
+# Editor/IDE specific files
+.vscode/  # Visual Studio Code settings/cache
+.idea/    # IntelliJ/PyCharm IDE files
+*.sublime-project
+*.sublime-workspace
+.DS_Store # macOS specific files
+
+# Operating System generated files
+Thumbs.db # Windows thumbnail cache
+ehthumbs.db # Windows thumbnail cache
+*.bak     # Backup files
+*.swp     # Vim swap files
+
+# Database files (if using local SQLite or similar)
+*.sqlite3
+*.db
+/db.sqlite3
+
+# Log files
+*.log
+
+# Test/Coverage reports
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Distribution / Build files
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# MyPy cache directory (even if it has its own .gitignore, it's good to exclude the parent too)
+.mypy_cache/
+
+# Jupyter Notebook files (if you ever add them)
+.ipynb_checkpoints
+
+# Any uploaded files or media (if your app handles user uploads)
+/media/
+/static_files/ # If you collect static files here
+
+# Output directories for things like build artifacts or processed data
+/output/
+/data/
+
+# Scripts for local use (if they shouldn't be in repo, though you said you don't care about scripts, for completeness)
+activate_venv.ps1
+run_apis.sh
+setup_project.sh
