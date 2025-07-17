@@ -1,6 +1,5 @@
-My apologies! I completely missed that instruction. Here is the same concise, high-level README.md, translated into English as requested.
-
 Modular Payment System
+
 This project implements a foundational Payment System architecture, designed with a microservices approach to clearly separate concerns between payment processing and user management. Its purpose is to demonstrate core functionalities and serve as a flexible foundation for future development.
 
 1. Architecture & Purpose
